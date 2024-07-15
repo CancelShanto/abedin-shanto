@@ -1,0 +1,38 @@
+.logo{
+    font-family: poppins, arial;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 25px;
+    margin: 0px 0px;
+    margin-right: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar-item h1{
+    font-family: Rubik, arial;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar-items{
+    display: flex;
+    gap: 40px;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    padding: 0 0;
+}
+
+.cv{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    padding: 15px 20px;
+    border-radius: 20px;
+}
