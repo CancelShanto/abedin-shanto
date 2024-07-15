@@ -40,6 +40,10 @@
 /* navbar ends here */
 
 /* banner section starts here */
+.left-side{
+    margin-top: 50px;
+}
+
 .main-section h1{
     font-family: poppins, arial;
     font-size: 40px;
@@ -137,4 +141,78 @@
     cursor: pointer;
 }
 
+/* profile */
+.profile{
+    display: flex;
+    width: 100%;
+}
+
+.both-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side img{
+    width: 600px;
+}
 /* banner section ends here */
+
+/* line thingy */
+.line-parent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Rubik, arial;
+    background-color: rgb(0, 0, 0);
+    padding: 30px 0px;
+    width: 2500px;
+    white-space: nowrap;
+    
+}
+.line-parent{
+    position: absolute;
+    top: 75%;
+    left: -11%;
+    transform: rotate(-2deg);
+}
+
+.line-parent h1{
+    font-weight: 300;
+}
+
+/* about me */
+
+.about-me{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me h1{
+    font-family: poppins, arial;
+}
+
+.about-me p{
+    font-family: Rubik, arial;
+    color: var(--accent-color);
+}
+
+/* experience */
+
+.stars{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: var(--primary-color);
+}
+
+.star-txt h1, p{
+    margin: 0 0;
+    padding: 0 0;
+}
+
+.all-star{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
