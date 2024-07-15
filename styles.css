@@ -1,7 +1,8 @@
+/* navbar starts here */
 .logo{
     font-family: poppins, arial;
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--accent-color);
     font-size: 25px;
     margin: 0px 0px;
     margin-right: 40px;
@@ -36,3 +37,104 @@
     padding: 15px 20px;
     border-radius: 20px;
 }
+/* navbar ends here */
+
+/* banner section starts here */
+.main-section h1{
+    font-family: poppins, arial;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0 0;
+    margin: 10px 0;
+}
+
+.main-section p{
+    font-family: rubik, arial;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0 0;
+    margin: 10px 0;
+    color: var(--secondary-text-color);
+}
+
+.main-section{
+    margin-top: 80px;
+}
+
+.parent-h1{
+    display: flex;
+}
+
+.based-in{
+    display: flex;
+}
+
+.based-in h1{
+    margin: 0 0;
+}
+
+.city{
+    color: var(--primary-color);
+}
+
+/* skill section starts here */
+.skill-parent{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Rubik, arial;
+}
+
+.skill-parent div h1{
+    font-weight: 300;
+}
+
+/* button section */
+.full-button{
+    
+    font-family: Rubik, arial;
+    align-items: center;
+    font-weight: 400;
+    display: flex;
+    gap: 30px;
+    width: 300px;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+
+.port-button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    height: 60px;
+    padding: 0px 30px;  
+    cursor: pointer;  
+}
+
+.hire-button{
+    color: var(--background-color);
+}
+
+
+/* social media */
+.all-socials{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    padding: 0px 0;
+}
+
+.all-socials i{
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+/* banner section ends here */

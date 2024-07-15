@@ -8,6 +8,7 @@
     --secondary-color: #703a39;
     --accent-color: #cea6a5;
     --text-color: #f1eae9;
+    --secondary-text-color: #575757;
     --background-color: #160d0d;
 
 }
@@ -18,4 +19,8 @@ body{
     padding: 20px 120px;
     background-color: var(--background-color);
     color: var(--text-color);
+}
+
+a{
+    text-decoration: none;
 }
