@@ -19,8 +19,32 @@ body{
     padding: 20px 120px;
     background-color: var(--background-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 a{
     text-decoration: none;
 }
+
+/* custom scroolbar because if i do overflow hidden then the webpage gets limited to a specific size */
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #cea6a5 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #cea6a5;
+    border-radius: 0px;
+    border: 0px none #ffffff;
+  }
