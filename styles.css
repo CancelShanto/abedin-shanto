@@ -427,5 +427,134 @@ hr{
 /* port two */
 
 .img2 img{
-    width: 600px;
+    width: 500px;
+}
+
+
+/* contact */
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact h1{
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+/* extra  line */
+
+.extra-line h1{
+    margin: 0;
+    font-size: 20px;
+}
+
+.extra-line{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background-color: var(--secondary-color); */
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+/* contact form */
+
+.name-email input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+    font-family: rubik, arial;
+    margin: auto;
+    background-color: var(--secondary-color);
+    color: var(--accent-color);
+    padding: 10px 10px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+::placeholder{
+    color: var(--accent-color);
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 50px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px 20px;
+    width: 800px;
+    background-color: var(--secondary-color);
+
+}
+
+.message input{
+    background-color: var(--secondary-color);
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    font-family: rubik, arial;
+    font-size: 18px;
+    height: 100px;
+    width: 700px;
+}
+
+.file input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: var(--accent-color);
+    font-family: rubik, arial;
+    font-size: 15px;
+    height: 50px;
+    width: 700px;
+    margin-top: 20px;
+    cursor: pointer;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+.got-project h1{
+    padding-right: 440px;
+    margin-bottom: 50px;
+    
+}
+
+
+.parent-btn{
+    display: flex;
+    width: 700px;
+}
+
+.submit-btn button{
+    display: flex;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    font-family: rubik, arial;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
 }
