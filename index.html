@@ -16,19 +16,18 @@
         <!-- parent div start-->
         <div class="navbar">
             <!-- child div -->
-            <div>
-                <h1 class="logo">Abedin Shanto</h1>
+            <div id="home">
+                <a href="#home" onclick="scrollToMiddle()"><h1 class="logo">Abedin Shanto</h1></a>
             </div>
-
             <div class="navbar-items">
                 <div class="navbar-item">
-                    <h1>Home</h1>
+                    <a href="#home" onclick="scrollToMiddle()"><h1>Home</h1></a>
                 </div>
                 <div class="navbar-item">
                     <a href="#about-scroll" onclick="scrollToMiddle()"><h1>About Me</h1></a>
                 </div>
                 <div class="navbar-item">
-                    <a href="#graphics-design" onclick="scrollToMiddle()"><h1>Projects</h1></a>
+                    <a href="#project" onclick="scrollToMiddle()"><h1>Projects</h1></a>
                 </div>
                 <div class="navbar-item">
                     <h1>Testimonials</h1>
@@ -50,7 +49,7 @@
         <div class="left-side">
         <div class="main-section">
             <div>
-                <h1>
+                <h1 id="banner">
                     HI, I’m Abedin Shanto
                 </h1>
             </div>
@@ -309,7 +308,7 @@
 
      <!-- my portfolio section starts here -->
       <section>
-        <div class="my-projects">
+        <div class="my-projects" id="project">
             <div><h1>My Portfolio</h1></div>
             <div><p class="p-txt">A showcase of my recent projects</p></div>
         </div>
@@ -379,7 +378,7 @@
 
      <!-- contact form section starts here -->
       <section>
-        <div class="contact">
+        <div class="contact" id="contact">
             <div><p>Contact</p></div>
             <div><h1>Get in touch with me</h1></div>
         </div>
@@ -416,5 +415,64 @@
         </div>
       </section>
      <!-- contact form section ends here -->
+
+     <!-- footer section starts here -->
+
+      <section class="footer-container">
+        <div class="footer-container-sub">
+            <div class="footer-logo"><h1>ABEDIN SHANTO</h1></div>
+
+            <!-- footer navigations -->
+            <div class="footer-section">
+                <div class="footer-item">
+                    <a href="#home" onclick="scrollToMiddle()">
+                        <h1>Home</h1>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#about-scroll" onclick="scrollToMiddle()">
+                        <h1>About me</h1>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="#project" onclick="scrollToMiddle()">
+                        <h1>Projects</h1>
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <h1>Testimonials</h1>
+                </div>
+                <div class="footer-item">
+                    <a href="#contact" onclick="scrollToMiddle()">
+                        <h1>Contacts</h1>
+                    </a>
+                </div>
+            </div>
+
+            <div class="all-socials footer-socials">
+                <a href="https://www.facebook.com/abedinshant0" target="_blank">
+                <div class="fb"><i class="fa-brands fa-facebook"></i></div>
+                </a>
+                
+                <a href="https://www.instagram.com/smolcatfish/" target="_blank">
+                <div class="insta"><i class="fa-brands fa-instagram"></i></div>
+                </a>
+                
+                <a href="https://synovisuals.eu.org/" target="_blank">
+                <div class="web"><i class="fa-solid fa-globe"></i></div>
+                </a>
+                <a href="https://github.com/CancelShanto" target="_blank">
+                <div class="git"><i class="fa-brands fa-github"></i></div>
+                </a>
+            </div>
+        </div>
+        <!-- footer bottom starts here -->
+        <div class="footer-bottom">
+            <div><h1>© 2023 Abedin Shanto. All rights reserved.</h1></div>
+        </div>
+        <!-- footer bottom ends here -->
+      </section>
+     <!-- footer section ends here -->
+
 </body>
 </html>

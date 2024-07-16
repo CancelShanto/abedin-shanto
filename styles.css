@@ -298,7 +298,7 @@ hr{
 }
 
 .award-desc{
-    padding-right: 80px;
+    padding-right: 10px;
 }
 
 .award-main1{
@@ -330,7 +330,7 @@ hr{
 }
 
 .award-desc2{
-    padding-right: 90px;
+    padding-right: 15px;
 }
 
 .award-main2{
@@ -382,12 +382,12 @@ hr{
 }
 
 .orange-button{
-    background-color: rgb(255, 102, 0);
+    background-color: var(--primary-color);
     padding: 0 20px;
 }
 
 .orange-button h1{
-    color: white;
+    color: var(--background-color);
 }
 
 /* port setcions */
@@ -501,6 +501,7 @@ hr{
     margin: auto;
     padding: 20px 20px;
     width: 800px;
+    margin-bottom: 120px;
     background-color: var(--secondary-color);
 
 }
@@ -555,6 +556,84 @@ hr{
     font-size: 20px;
     padding: 10px 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
     border: none;
     cursor: pointer;
+}
+
+/* footer */
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: black;
+    height: 180px;
+    width: 1800px;
+    left: 0px;
+    margin: 0;
+    padding: 80px 100px;
+}
+
+.footer-logo{
+    font-family: poppins, arial;
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer-logo h1{
+    color: var(--primary-color);
+}
+
+.footer-item h1{
+    font-family: rubik, arial;
+    font-weight: 100;
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.footer-section{
+    display: flex;
+    gap: 50px;
+}
+
+.footer-socials{
+    margin-top: 40px;
+}
+
+.footer-socials i{
+    color: var(--primary-color);
+}
+
+.footer-container-sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent-color);
+
+    height: 50px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+    position: absolute;
+    top: 340px;
+}
+
+
+.footer-bottom h1{
+    font-family: rubik, arial;
+    color: var(--background-color);
+    margin: 0;
 }
