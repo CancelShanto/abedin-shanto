@@ -120,6 +120,7 @@
     background-color: var(--primary-color);
     height: 60px;
     padding: 0px 30px;  
+    margin-left: 3px;
     cursor: pointer;  
 }
 
@@ -266,4 +267,81 @@
 
 hr{
     border: 1px solid var(--secondary-color);
+}
+
+/* awards */
+
+.awards{
+    font-family: poppins, arial;
+    margin-top: 700px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.awards p{
+    color: var(--secondary-text-color);
+}
+
+
+/* award1 */
+.award1{
+    display: flex;
+    gap: 400px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 0px;
+}
+
+.award-main1 h1{
+    font-family: Rubik, arial;
+}
+
+.award-desc{
+    padding-right: 80px;
+}
+
+.award-main1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik, arial;
+    background-color: black;
+    height: 200px;
+    width: 1000px;
+    padding: 20px 20px;
+    margin: 35px auto;
+}
+
+/* award2 */
+
+.award2{
+    display: flex;
+    gap: 250px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0 0px;
+}
+
+.award-main2 h1{
+    font-family: Rubik, arial;
+}
+
+.award-desc2{
+    padding-right: 90px;
+}
+
+.award-main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Rubik, arial;
+    background-color: black;
+    height: 200px;
+    width: 1000px;
+    padding: 20px 20px;
+    margin: 35px auto;
 }
