@@ -40,9 +40,6 @@
 /* navbar ends here */
 
 /* banner section starts here */
-.left-side{
-    margin-top: 50px;
-}
 
 .main-section h1{
     font-family: poppins, arial;
@@ -78,7 +75,35 @@
 }
 
 .city{
-    color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+.myname{
+    /* text-transform: uppercase; */
+    color: rgb(255, 0, 0);
+    /* font-size: 50px;
+    text-shadow: -1px 1px 0 #000,
+        1px 1px 0 #000,
+        1px -1px 0 #000,
+        -1px -1px 0 #000; */
+}
+
+.name-main{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+#banner{
+    font-family: "Caveat", arial;
+    font-size: 65px;
+}
+
+#name-font{
+    font-family: "Caveat", arial;
+    font-size: 80px;
+
 }
 
 /* skill section starts here */
@@ -180,6 +205,7 @@
 
 .line-parent h1{
     font-weight: 300;
+    color: white;
 }
 
 /* about me */
@@ -257,7 +283,7 @@
     align-items: center;
     
 
-    background: rgb(43, 23, 22);
+    background-color: var(--blue);
     padding: 80px 110px;
     width: 1690px;
     position: absolute;
@@ -266,7 +292,7 @@
 }
 
 hr{
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--accent-color);
 }
 
 /* awards */
@@ -307,7 +333,7 @@ hr{
     justify-content: center;
     align-items: center;
     font-family: Rubik, arial;
-    background-color: black;
+    background-color: var(--blue);
     height: 200px;
     width: 1000px;
     padding: 20px 20px;
@@ -339,7 +365,7 @@ hr{
     justify-content: center;
     align-items: center;
     font-family: Rubik, arial;
-    background-color: black;
+    background-color: var(--blue);
     height: 200px;
     width: 1000px;
     padding: 20px 20px;
@@ -377,7 +403,7 @@ hr{
 }
 
 .black-button{
-    background-color: black;
+    background-color: var(--blue);
     padding: 0 20px;
 }
 
@@ -442,7 +468,7 @@ hr{
 
 .contact h1{
     margin: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 /* extra  line */
@@ -458,7 +484,7 @@ hr{
     align-items: center;
     text-align: center;
     /* background-color: var(--secondary-color); */
-    padding: 40px 20px;
+    padding: 0px 20px;
     margin-bottom: 40px;
 }
 
@@ -472,7 +498,7 @@ hr{
     font-size: 18px;
     font-family: rubik, arial;
     margin: auto;
-    background-color: var(--secondary-color);
+    background-color: var(--blue);
     color: var(--accent-color);
     padding: 10px 10px;
     width: 250px;
@@ -502,12 +528,12 @@ hr{
     padding: 20px 20px;
     width: 800px;
     margin-bottom: 120px;
-    background-color: var(--secondary-color);
+    background-color: var(--blue);
 
 }
 
 .message input{
-    background-color: var(--secondary-color);
+    background-color: var(--blue);
     border: none;
     border-bottom: 1px solid var(--accent-color);
     color: var(--accent-color);
@@ -569,7 +595,7 @@ hr{
     justify-content: center;
     align-items: center;
     position: absolute;
-    background-color: black;
+    background-color: rgb(235, 235, 235);
     height: 180px;
     width: 1800px;
     left: 0px;
@@ -584,13 +610,13 @@ hr{
 }
 
 .footer-logo h1{
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .footer-item h1{
     font-family: rubik, arial;
     font-weight: 100;
-    color: var(--primary-color);
+    color: var(--accent-color);
     margin: 0;
 }
 
@@ -604,7 +630,7 @@ hr{
 }
 
 .footer-socials i{
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .footer-container-sub{

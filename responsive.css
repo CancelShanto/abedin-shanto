@@ -1,4 +1,4 @@
-@media only screen and (min-width: 300px) and (max-width: 500px){
+@media only screen and (min-width: 300px) and (max-width: 800px){
 
 
     body{
@@ -6,23 +6,25 @@
         margin: 0;
         overflow: hidden;
     }
-
-    .logo{
+    h1{
+        font-size: 12px;
+    }
+    p{
         font-size: 8px;
+    }
+    .logo{
         width: 10px;
         white-space: nowrap;
     }
 
      .navbar h1{
-        display: flex;
-        gap: 0px;
         font-size: 8px;
         padding: 0px;
         white-space: nowrap;
     }
 
     .navbar-items{
-        gap: 10px;
+        gap: 20px;
     }
 
     .cv {
@@ -188,7 +190,162 @@
 
     /* awards */
 
+    .awards{
+        margin-top: 280px;
+        margin-bottom: 10px;
+    }
     
+    /* award1 */
+    .award-desc{
+        padding-right: 135px;
+        
+    }
+    
+    .award1{
+        padding-left: 70px;
+    }
+    .award-main1{
+        height: 100px;
+        width: 600px;
+        white-space: nowrap;
+        position: absolute;
+        left: 0;
+    }
+    
+    /* award2 */
+    .award-desc2{
+        padding-right: 135px;
+    }
+    
+    .award-main2{
+        height: 100px;
+        width: 600px;
+        white-space: nowrap;
+        position: absolute;
+        left: 0;
+        top: 110%;
+    }
+
+    /* my projects */
+    .my-projects{
+        margin-top: 380px;
+    }
+
+    /* project buttons */
+    .all-buttons{
+        gap: 12px;
+        margin-top: 50px;
+    }
+
+    .all-buttons h1{
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    /* port setcions */
+    /* port one */
+    .port-img img{
+        width: 200px;
+    }
+
+    .port-txt h2{
+        font-size: 10px;
+        margin: 5px 0;
+    }
+
+    .port-txt h1{
+        font-size: 12px;
+    }
+
+    .port-txt p{
+        font-size: 8px;
+    }
+
+    .both-port{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        padding: 0px 0px;
+        gap: 40px;
+    }
+
+    /* contact */
+    .contact{
+        margin-top: 50px;
+    }
+
+    .contact h1{
+        margin-bottom: 0px;
+    }
+
+    /* extra  line */
+
+    .extra-line h1{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .extra-line{
+        padding: 10px 0px;
+    }
+
+    /* contact form */
+
+    .name-email input{
+        font-size: 12px;
+        font-family: rubik, arial;
+        width: 180px;
+        border-bottom: 1px solid var(--accent-color);
+    }
+
+    .name-email {
+        gap: 100px;
+        margin-bottom: 30px;
+    }
+
+    .contact-form{
+        padding: 0px 0px;
+        width: 0px; /* 600px */
+        margin-bottom: 60px;
+    }
+
+    .message input{
+        font-size: 12px;
+        height: 100px;
+        width: 500px;
+    }
+
+    .custom-file-upload {
+        font-size: 12px;
+        height: 50px;
+        width: 100px;
+    }
+
+    .got-project h1{
+        padding-right: 440px;
+        margin-bottom: 50px;
+        white-space: nowrap;
+        margin: 20px auto
+        
+    }
+
+    .parent-btn{
+        display: flex;
+        width: 155px;
+    }
+
+    .submit-btn button{
+        display: flex;
+        background-color: var(--accent-color);
+        color: var(--background-color);
+        font-family: rubik, arial;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: none;
+        cursor: pointer;
+    }
 
 
 
