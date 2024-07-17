@@ -246,6 +246,257 @@ hr{
 /* ------------------------------------------------------------------------- */
 
 
+/* ------------------------------------------------------------------------- */
+/* awards */
+
+.awards{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+
+.awards p{
+    font-size: 10px;
+}
+
+
+/* award1 */
+.award1{
+    gap: 200px;
+}
+
+
+.award-desc{
+    padding-right: 0px;
+}
+
+.award-main1{
+    height: 100px;
+    width: 475px;
+}
+
+/* award2 */
+
+.award2{
+    gap: 120px;
+}
+
+.award-desc2{
+    padding-right: 0px;
+}
+
+.award-main2{
+    height: 100px;
+    width: 475px;
+}
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------- */
+/* my projects */
+.p-txt{
+    font-size: 10px;
+}
+.my-projects{
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+/* project buttons */
+.all-buttons{
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.all-buttons h1{
+    font-size: 12px;
+}
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------- */
+/* port setcions */
+/* port one */
+.port-img img{
+    width: 300px;
+}
+
+.port-txt h2{
+    text-align: center;
+    font-size: 10px;
+    margin: 0px 0;
+}
+
+.port-txt h1{
+    text-align: center;
+    font-size: 18px;
+}
+
+.port-txt p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.port-txt{
+    margin-left: 50px;
+
+}
+
+.both-port{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 100px;
+    padding: 0px 0px;
+    gap: 20px;
+}
+
+/* port two */
+
+.img2 img{
+    width: 300px;
+}
+
+
+.port2{
+    position: absolute;
+    top: 335%;
+
+}
+
+.img2{
+    position: absolute;
+}
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------- */
+/* contact */
+.contact{
+    
+    margin-top: 580px;
+    margin-left: 50%;
+}
+
+.contact h1{
+    margin: 0;
+    margin-bottom: 0px;
+}
+
+/* extra  line */
+
+.extra-line h1{
+    margin: 0;
+    font-size: 18px;
+}
+
+.extra-line{
+    margin-left: 55%;
+    padding: 0px 20px;
+    margin-bottom: 40px;
+}
+
+/* contact form */
+
+.name-email input{
+    font-size: 12px;
+    width: 150px;
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.name-email {
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    padding: 20px 20px;
+    width: 480px;
+    margin-bottom: 50px;
+
+}
+
+.message input{
+    font-size: 12px;
+    height: 80px;
+    width: 450px;
+}
+
+.custom-file-upload {
+    font-size: 12px;
+    height: 20px;
+    margin-left: 240px;
+
+}
+
+.got-project h1{
+    padding-right: 0px;
+    margin-bottom: 50px;
+    
+}
+
+
+.parent-btn{
+    display: flex;
+    width: 700px;
+    
+}
+
+.submit-btn button{
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+/* ------------------------------------------------------------------------- */
+
+
+/* ------------------------------------------------------------------------- */
+/* footer */
+
+.footer-container{
+    height: 180px;
+    width: 360px;
+    left: 0px;
+    padding: 80px 100px;
+}
+
+.footer-logo{
+    font-family: poppins, arial;
+    margin: 20px 0px;
+}
+
+
+.footer-container-sub{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+
+.footer-bottom{
+    height: 200px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 0;
+    position: absolute;
+    top: 340px;
+}
+
+.all-socials{
+    margin: 30px 0px;
+}
+
+
+.footer-bottom h1{
+    font-family: rubik, arial;
+    color: var(--background-color);
+    margin: 0;
+}
+/* ------------------------------------------------------------------------- */
+
+
 
 
 
