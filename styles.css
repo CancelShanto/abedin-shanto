@@ -52,7 +52,7 @@
 .main-section p{
     font-family: rubik, arial;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 300;
     padding: 0 0;
     margin: 10px 0;
     color: var(--secondary-text-color);
@@ -105,6 +105,7 @@
     font-size: 80px;
 
 }
+/* banner section ends here */
 
 /* skill section starts here */
 .skill-parent{
@@ -292,7 +293,7 @@
 }
 
 hr{
-    border: 1px solid var(--accent-color);
+    border: 1px solid var(--primary-text-color);
 }
 
 /* awards */
@@ -408,7 +409,7 @@ hr{
 }
 
 .orange-button{
-    background-color: var(--primary-color);
+    background-color: rgb(245, 53, 85);
     padding: 0 20px;
 }
 
