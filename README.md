@@ -1,1 +1,6 @@
-<h1>Visit the website here: https://cancelshanto.github.io/abedin-shanto/</h1>
+<h1>Visit the website here
+  
+  Light mode: https://cancelshanto.github.io/abedin-shanto/ <br>
+  Dark mode: https://cancelshanto.github.io/abedin-shanto-dark-theme/
+  
+</h1>
